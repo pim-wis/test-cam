@@ -28,6 +28,10 @@ def run():
 
     st.sidebar.success("Select a demo above.")
 
+        
+    img_file_buffer = st.camera_input("Take a picture")
+
+
     st.markdown(
         """
         Streamlit is an open-source app framework built specifically for
